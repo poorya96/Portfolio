@@ -28,7 +28,7 @@ export const ContentProvider = ({ children }) => {
     }
 
     // If no saved content, load from public/content.json
-    fetch("/content.json")
+    fetch(import.meta.env.BASE_URL + "content.json")
       .then((res) => res.json())
       .then((data) => {
         setContent(data);
@@ -47,7 +47,7 @@ export const ContentProvider = ({ children }) => {
 
   const resetContent = () => {
     localStorage.removeItem("portfolioContent");
-    fetch("/content.json")
+    fetch(import.meta.env.BASE_URL + "content.json")
       .then((res) => res.json())
       .then((data) => {
         setContent(data);
