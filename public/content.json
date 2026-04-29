@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "title": "Poorya Hassanzadeh",
+    "subtitle": "Machine Learning Researcher | Computer Vision | Deep Learning",
+    "description": "ML researcher specializing in computer vision and deep learning for intelligent transportation and autonomous systems. Seeking PhD positions in ML-enabled vision systems.",
+    "cta": "View Research"
+  },
+  "about": {
+    "title": "About",
+    "description": "Machine learning researcher with strong expertise in computer vision and deep learning. I have hands-on experience deploying real-time detection and recognition systems, with proven ability to build robust, data-efficient models for real-world environments—from dataset collection to embedded deployment.",
+    "description2": "Current focus: Cognitively-inspired vision systems for traffic scene understanding, autonomous driving applications, and behavior prediction. Interested in neural architecture optimization, transfer learning, and model compression for edge deployment.",
+    "cards": [
+      {
+        "title": "Computer Vision",
+        "description": "Object detection, scene understanding, pedestrian behavior prediction, vision transformers, and real-time embedded vision systems"
+      },
+      {
+        "title": "Deep Learning",
+        "description": "Neural architecture design, transfer learning, model compression, data-efficient learning under limited labeled data"
+      },
+      {
+        "title": "Research Focus",
+        "description": "Cognitively-inspired models, visual attention, human-centered AI for transportation safety, behavior prediction in dynamic environments"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "M.Sc. in Computer Engineering – Software",
+      "institution": "Islamic Azad University, Tabriz Branch, Iran",
+      "period": "Sep 2020 – Jan 2023",
+      "gpa": "17.40/20.00 (3.654/4.00) — Top 5%",
+      "thesis": "Using Deep Learning to Detect and Prevent DDoS Attacks on the Internet of Things",
+      "details": "Proposed and implemented a deep learning framework for detecting DDoS attacks in IoT environments under limited labeled data. Developed temporal pattern modeling applicable to behavior prediction in dynamic environments."
+    },
+    {
+      "degree": "B.Sc. in Electrical Engineering",
+      "institution": "University of Tabriz, Iran",
+      "period": "Sep 2015 – Sep 2020",
+      "details": "Final Project: Computer-controlled CNC robot using Arduino, integrating hardware control with embedded software"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Engineer",
+      "company": "GUNESH BILGISAYAR SAHAND — Computer Vision Solutions",
+      "period": "Feb 2025 – Mar 2026",
+      "location": "Tabriz, Iran",
+      "projects": [
+        {
+          "name": "License Plate Detection (YOLOv5)",
+          "description": "Fine-tuned YOLOv5 on ~5,000 images; achieved 90–95% accuracy under low-light and angled conditions. Deployed on embedded system for real-time inference, directly applicable to traffic scene analysis and autonomous driving pipelines."
+        },
+        {
+          "name": "Cement Bag Counting (YOLO)",
+          "description": "Developed custom counter for overlapping objects using ~2,000-image dataset; achieved ~90% accuracy in cluttered environments. Applied techniques for handling occlusion and dense scenes."
+        },
+        {
+          "name": "Jewelry Similarity Search (ResNet + SIFT)",
+          "description": "Fused deep and handcrafted features for fine-grained retrieval on ~3,000 images; achieved 93-97% Top-1/Top-5 accuracy, a 10-15% gain over single-feature baselines."
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "title": "PDLO: Neural-Enhanced Probabilistic Data Lifespan Optimization",
+      "period": "2025",
+      "status": "Manuscript in preparation",
+      "description": "Fast and accurate IoT event detection using neural-enhanced probabilistic approaches"
+    },
+    {
+      "title": "Lightweight Vision-Based Inspection",
+      "period": "Jun 2024 – Jan 2025",
+      "description": "Developed transfer learning-based image classification system for industrial defect detection. Applied data augmentation and model optimization; evaluated accuracy-latency trade-offs for edge deployment."
+    },
+    {
+      "title": "Machine Learning & IoT Systems Research",
+      "period": "Jan 2023 – Apr 2024",
+      "description": "Conducted experimentation on data-efficient deep learning models, implemented CNN-based architectures, and explored hybrid neural-probabilistic modeling. Studied pedestrian behavior prediction using JAAD and PIE datasets for intention estimation in traffic scenes."
+    },
+    {
+      "title": "Comparative Study of ML Classification Methods",
+      "period": "Research Project",
+      "description": "Benchmarked SVM, Random Forest, and Neural Networks on unified datasets; evaluated accuracy, precision, and recall metrics."
+    }
+  ],
+  "skills": {
+    "programming": ["Python", "JavaScript", "C/C++", "Arduino/Embedded"],
+    "ml_frameworks": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "OpenCV",
+      "YOLOv5",
+      "scikit-learn"
+    ],
+    "data_tools": ["pandas", "NumPy", "scikit-image", "Jupyter"],
+    "vision_ml": [
+      "Object Detection",
+      "Scene Understanding",
+      "Object Tracking",
+      "Image Classification",
+      "Transfer Learning",
+      "Model Compression"
+    ],
+    "tools": ["Git", "Docker", "VS Code", "LaTeX", "Matplotlib", "Plotly"],
+    "hardware": ["Raspberry Pi", "ESP32", "Arduino", "Embedded Systems"]
+  },
+  "research_interests": [
+    "Computer Vision: Object detection, scene understanding, pedestrian behavior prediction, vision transformers",
+    "Deep Learning: Neural architecture optimization, transfer learning, model compression, reinforcement learning",
+    "Intelligent Transportation: Cognitively-inspired models, visual attention, human-centered AI for safety"
+  ],
+  "contact": {
+    "name": "Poorya Hassanzadeh",
+    "email": "Poorya_H@outlook.com",
+    "phone": "+98 933 888 0429",
+    "location": "Tabriz, Iran",
+    "languages": "English (Proficient - IELTS 7.0, CEFR C1), Persian (Native)"
+  },
+  "socialLinks": [
+    {
+      "name": "Email",
+      "url": "mailto:Poorya_H@outlook.com",
+      "icon": "Mail"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/poorya-h",
+      "icon": "Github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/poorya-hassanzadeh",
+      "icon": "Linkedin"
+    }
+  ],
+  "publications": [
+    {
+      "title": "PDLO: Neural-Enhanced Probabilistic Data Lifespan Optimization for Fast and Accurate IoT Event Detection",
+      "authors": "Hassanzadeh, P. et al.",
+      "year": 2025,
+      "status": "Manuscript in preparation"
+    }
+  ]
+}
