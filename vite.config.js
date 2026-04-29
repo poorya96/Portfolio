@@ -4,8 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: process.env.GITHUB_PAGES ? "/portfolio/" : "/",
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/Portfolio/' : '/',
   plugins: [tailwindcss(), react()],
   resolve: {
     alias: {
