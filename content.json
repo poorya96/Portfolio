@@ -49,15 +49,18 @@
       "projects": [
         {
           "name": "License Plate Detection (YOLOv5)",
-          "description": "Fine-tuned YOLOv5 on ~5,000 images; achieved 90–95% accuracy under low-light and angled conditions. Deployed on embedded system for real-time inference, directly applicable to traffic scene analysis and autonomous driving pipelines."
+          "description": "Fine-tuned YOLOv5 on ~5,000 images; achieved 90–95% accuracy under low-light and angled conditions. Deployed on embedded system for real-time inference, directly applicable to traffic scene analysis and autonomous driving pipelines.",
+          "github": "https://github.com/poorya-h/license-plate-detection"
         },
         {
           "name": "Cement Bag Counting (YOLO)",
-          "description": "Developed custom counter for overlapping objects using ~2,000-image dataset; achieved ~90% accuracy in cluttered environments. Applied techniques for handling occlusion and dense scenes."
+          "description": "Developed custom counter for overlapping objects using ~2,000-image dataset; achieved ~90% accuracy in cluttered environments. Applied techniques for handling occlusion and dense scenes.",
+          "github": ""
         },
         {
           "name": "Jewelry Similarity Search (ResNet + SIFT)",
-          "description": "Fused deep and handcrafted features for fine-grained retrieval on ~3,000 images; achieved 93-97% Top-1/Top-5 accuracy, a 10-15% gain over single-feature baselines."
+          "description": "Fused deep and handcrafted features for fine-grained retrieval on ~3,000 images; achieved 93-97% Top-1/Top-5 accuracy, a 10-15% gain over single-feature baselines.",
+          "github": ""
         }
       ]
     }
@@ -67,22 +70,26 @@
       "title": "PDLO: Neural-Enhanced Probabilistic Data Lifespan Optimization",
       "period": "2025",
       "status": "Manuscript in preparation",
-      "description": "Fast and accurate IoT event detection using neural-enhanced probabilistic approaches"
+      "description": "Fast and accurate IoT event detection using neural-enhanced probabilistic approaches",
+      "github": ""
     },
     {
       "title": "Lightweight Vision-Based Inspection",
       "period": "Jun 2024 – Jan 2025",
-      "description": "Developed transfer learning-based image classification system for industrial defect detection. Applied data augmentation and model optimization; evaluated accuracy-latency trade-offs for edge deployment."
+      "description": "Developed transfer learning-based image classification system for industrial defect detection. Applied data augmentation and model optimization; evaluated accuracy-latency trade-offs for edge deployment.",
+      "github": "https://github.com/poorya-h/vision-inspection"
     },
     {
       "title": "Machine Learning & IoT Systems Research",
       "period": "Jan 2023 – Apr 2024",
-      "description": "Conducted experimentation on data-efficient deep learning models, implemented CNN-based architectures, and explored hybrid neural-probabilistic modeling. Studied pedestrian behavior prediction using JAAD and PIE datasets for intention estimation in traffic scenes."
+      "description": "Conducted experimentation on data-efficient deep learning models, implemented CNN-based architectures, and explored hybrid neural-probabilistic modeling. Studied pedestrian behavior prediction using JAAD and PIE datasets for intention estimation in traffic scenes.",
+      "github": ""
     },
     {
       "title": "Comparative Study of ML Classification Methods",
       "period": "Research Project",
-      "description": "Benchmarked SVM, Random Forest, and Neural Networks on unified datasets; evaluated accuracy, precision, and recall metrics."
+      "description": "Benchmarked SVM, Random Forest, and Neural Networks on unified datasets; evaluated accuracy, precision, and recall metrics.",
+      "github": ""
     }
   ],
   "skills": {
