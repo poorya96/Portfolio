@@ -93,7 +93,13 @@
     }
   ],
   "skills": {
-    "programming": ["Python", "JavaScript", "C/C++", "Arduino/Embedded"],
+    "programming": [
+      "Python",
+      "JavaScript",
+      "C/C++",
+      "Arduino/Embedded",
+      "Front-end (React)"
+    ],
     "ml_frameworks": [
       "PyTorch",
       "TensorFlow",
