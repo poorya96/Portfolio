@@ -8,6 +8,7 @@ import { ExperienceSection } from "../components/ExperienceSection";
 import { ResearchInterestSection } from "../components/ResearchInterestSection";
 import { ResearchSection } from "../components/ResearchSection";
 import { SkillsSection } from "../components/SkillsSection";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -29,6 +30,7 @@ export const Home = () => {
         <SkillsSection />
       </main>
       {/* Footer */}
+      <Footer />
     </div>
   );
 };
