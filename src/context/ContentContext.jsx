@@ -15,19 +15,21 @@ export const ContentProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Try to load from localStorage first
-    const savedContent = localStorage.getItem("portfolioContent");
-    if (savedContent) {
-      try {
-        setContent(JSON.parse(savedContent));
-        setLoading(false);
-        return;
-      } catch (e) {
-        console.error("Failed to parse saved content", e);
+    // Try to load from localStorage first (only in production)
+    if (!import.meta.env.DEV) {
+      const savedContent = localStorage.getItem("portfolioContent");
+      if (savedContent) {
+        try {
+          setContent(JSON.parse(savedContent));
+          setLoading(false);
+          return;
+        } catch (e) {
+          console.error("Failed to parse saved content", e);
+        }
       }
     }
 
-    // If no saved content, load from public/content.json
+    // Always load from public/content.json during development, or if no localStorage
     fetch(import.meta.env.BASE_URL + "content.json")
       .then((res) => res.json())
       .then((data) => {

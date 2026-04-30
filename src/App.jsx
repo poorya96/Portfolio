@@ -4,9 +4,11 @@ import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 
 function App() {
+  const basename = import.meta.env.PROD ? "/Portfolio/" : "/";
+
   return (
     <ContentProvider>
-      <BrowserRouter basename="/Portfolio/">
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />

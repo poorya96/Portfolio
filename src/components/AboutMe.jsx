@@ -1,4 +1,4 @@
-import { Code, Download } from "lucide-react";
+import { Briefcase, BookOpen, Target, Download } from "lucide-react";
 import { useContent } from "../context/ContentContext";
 import { ContactModal } from "./ContactModal";
 import { useState } from "react";
@@ -6,6 +6,8 @@ import { useState } from "react";
 export const AboutMe = () => {
   const { content } = useContent();
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const cardIcons = [Briefcase, BookOpen, Target];
 
   if (!content) return <div>Loading...</div>;
 
@@ -17,7 +19,7 @@ export const AboutMe = () => {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
-      <div className="container mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-9xl text-left">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
           {title} <span className="text-primary">Me</span>
         </h2>
@@ -29,7 +31,7 @@ export const AboutMe = () => {
             <p className="text-sm md:text-base leading-relaxed text-muted-foreground">
               {description}
             </p>
-            <p className="text-sm md:text-base leading-relaxed text-muted-foreground">
+            <p className="text-sm md:text-base leading-relaxed text-bold">
               {description2}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start">
@@ -51,26 +53,29 @@ export const AboutMe = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6 ">
-            {cards.map((card, idx) => (
-              <div
-                key={idx}
-                className="section-card p-5 md:p-6 border border-primary/25 hover:border-primary/50 hover:shadow-lg card-hover"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
-                    <Code className="h-5 w-5 md:h-6 md:w-6 text-primary" />
-                  </div>
-                  <div className="text-left">
-                    <h4 className="font-semibold text-sm md:text-base text-foreground mb-1">
-                      {card.title}
-                    </h4>
-                    <p className="text-xs md:text-sm leading-relaxed text-muted-foreground">
-                      {card.description}
-                    </p>
+            {cards.map((card, idx) => {
+              const IconComponent = cardIcons[idx];
+              return (
+                <div
+                  key={idx}
+                  className="section-card p-5 md:p-6 border border-primary/25 hover:border-primary/50 hover:shadow-lg card-hover"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
+                      <IconComponent className="h-5 w-5 md:h-6 md:w-6 text-primary" />
+                    </div>
+                    <div className="text-left">
+                      <h4 className="font-semibold text-sm md:text-base text-foreground mb-1">
+                        {card.title}
+                      </h4>
+                      <p className="text-xs md:text-sm leading-relaxed text-muted-foreground">
+                        {card.description}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

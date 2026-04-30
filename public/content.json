@@ -7,20 +7,20 @@
   },
   "about": {
     "title": "About",
-    "description": "Machine learning researcher with strong expertise in computer vision and deep learning. I have hands-on experience deploying real-time detection and recognition systems, with proven ability to build robust, data-efficient models for real-world environments—from dataset collection to embedded deployment.",
+    "description": "I'm Poorya Hassanzadeh, a machine learning researcher with hands-on experience building and deploying real-world AI systems. from fine-tuning computer vision models on custom datasets to designing data-efficient deep learning pipelines for IoT environments. My work spans object detection, image retrieval, anomaly detection, and intelligent IoT systems, with a growing focus on cognitively-inspired vision for autonomous driving and traffic scene understanding.  I enjoy working at the intersection of research and real deployment; where models don't just perform well in experiments, but actually run on embedded hardware in production. I'm currently seeking a PhD position where I can push the boundaries of machine learning and computer vision, contributing to research that bridges perception, cognition, and real-world intelligent systems.",
     "description2": "Current focus: Cognitively-inspired vision systems for traffic scene understanding, autonomous driving applications, and behavior prediction. Interested in neural architecture optimization, transfer learning, and model compression for edge deployment.",
     "cards": [
       {
-        "title": "Computer Vision",
-        "description": "Object detection, scene understanding, pedestrian behavior prediction, vision transformers, and real-time embedded vision systems"
+        "title": "Production Experience",
+        "description": "Built and deployed computer vision and IoT systems in real industrial environments, from edge hardware inference to large-scale anomaly detection pipelines."
       },
       {
-        "title": "Deep Learning",
-        "description": "Neural architecture design, transfer learning, model compression, data-efficient learning under limited labeled data"
+        "title": "Research & Academic Record",
+        "description": "MSc thesis on deep learning for IoT security. Paper in preparation on neural-probabilistic event detection, GPA 17.40/20."
       },
       {
-        "title": "Research Focus",
-        "description": "Cognitively-inspired models, visual attention, human-centered AI for transportation safety, behavior prediction in dynamic environments"
+        "title": "Seeking PhD",
+        "description": "Ready to contribute to cutting-edge research in machine learning, computer vision, and intelligent systems. Open to PhD opportunities, collaborations, and research discussions."
       }
     ]
   },
@@ -29,7 +29,7 @@
       "degree": "M.Sc. in Computer Engineering – Software",
       "institution": "Islamic Azad University, Tabriz Branch, Iran",
       "period": "Sep 2020 – Jan 2023",
-      "gpa": "17.40/20.00 (3.654/4.00) — Top 5%",
+      "gpa": "17.40/20.00 (3.654/4.00)",
       "thesis": "Using Deep Learning to Detect and Prevent DDoS Attacks on the Internet of Things",
       "details": "Proposed and implemented a deep learning framework for detecting DDoS attacks in IoT environments under limited labeled data. Developed temporal pattern modeling applicable to behavior prediction in dynamic environments."
     },
@@ -131,23 +131,20 @@
     "phone": "+98 933 888 0429",
     "location": "Tabriz, Iran",
     "languages": "English (Proficient - IELTS 7.0, CEFR C1), Persian (Native)",
-    "cv": "https://drive.google.com/YOUR-CV-LINK-HERE"
+    "cv": "https://1drv.ms/b/c/5fb1d612d536d0ee/IQDngRryTZjBR5zJgFwzjkOBAbpUP8Ekl68CnuZkuI0bd2o?e=MP7QTD"
   },
   "socialLinks": [
     {
-      "name": "Email",
-      "url": "mailto:Poorya_H@outlook.com",
-      "icon": "Mail"
-    },
-    {
       "name": "GitHub",
-      "url": "https://github.com/poorya-h",
-      "icon": "Github"
+      "url": "https://github.com/poorya96",
+      "icon": "Github",
+      "display": "poorya96"
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/poorya-hassanzadeh",
-      "icon": "Linkedin"
+      "url": "https://www.linkedin.com/in/pooryahassanzadeh/",
+      "icon": "Linkedin",
+      "display": "pooryahassanzadeh"
     }
   ],
   "publications": [

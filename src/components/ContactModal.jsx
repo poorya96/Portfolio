@@ -74,7 +74,7 @@ export const ContactModal = ({ isOpen, onClose }) => {
                         {link.name}
                       </p>
                       <p className="font-semibold text-foreground truncate">
-                        {link.name}
+                        {link.display || link.name}
                       </p>
                     </div>
                   </a>
