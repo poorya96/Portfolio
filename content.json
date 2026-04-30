@@ -48,19 +48,19 @@
       "location": "Tabriz, Iran",
       "projects": [
         {
-          "name": "License Plate Detection (YOLOv5)",
-          "description": "Fine-tuned YOLOv5 on ~5,000 images; achieved 90–95% accuracy under low-light and angled conditions. Deployed on embedded system for real-time inference, directly applicable to traffic scene analysis and autonomous driving pipelines.",
-          "github": "https://github.com/poorya-h/license-plate-detection"
+          "name": "License Plate Detection (YOLOv8)",
+          "description": "Fine-tuned YOLOv8 on ~5,000 images; achieved 90–95% accuracy under low-light and angled conditions. Deployed on embedded system for real-time inference, directly applicable to traffic scene analysis and autonomous driving pipelines.",
+          "github": "https://github.com/poorya96/Iranian-License-Plate-Detector"
         },
         {
           "name": "Cement Bag Counting (YOLO)",
           "description": "Developed custom counter for overlapping objects using ~2,000-image dataset; achieved ~90% accuracy in cluttered environments. Applied techniques for handling occlusion and dense scenes.",
-          "github": ""
+          "github": "https://github.com/poorya96/Cement-Detector"
         },
         {
           "name": "Jewelry Similarity Search (ResNet + SIFT)",
           "description": "Fused deep and handcrafted features for fine-grained retrieval on ~3,000 images; achieved 93-97% Top-1/Top-5 accuracy, a 10-15% gain over single-feature baselines.",
-          "github": ""
+          "github": "https://github.com/poorya96/Jewelry-Classification-API"
         }
       ]
     }
@@ -74,10 +74,10 @@
       "github": ""
     },
     {
-      "title": "Lightweight Vision-Based Inspection",
+      "title": "Face Recognition with Raspberry Pi Using a Smartphone Camera",
       "period": "Jun 2024 – Jan 2025",
-      "description": "Developed transfer learning-based image classification system for industrial defect detection. Applied data augmentation and model optimization; evaluated accuracy-latency trade-offs for edge deployment.",
-      "github": "https://github.com/poorya-h/vision-inspection"
+      "description": "> Real-time face recognition on Raspberry Pi using a smartphone IP camera, with GPIO-based authentication output.",
+      "github": "https://github.com/poorya96/facial_recognition"
     },
     {
       "title": "Machine Learning & IoT Systems Research",
@@ -131,7 +131,7 @@
     "phone": "+98 933 888 0429",
     "location": "Tabriz, Iran",
     "languages": "English (Proficient - IELTS 7.0, CEFR C1), Persian (Native)",
-    "cv": "https://1drv.ms/b/c/5fb1d612d536d0ee/IQDngRryTZjBR5zJgFwzjkOBAbpUP8Ekl68CnuZkuI0bd2o?e=MP7QTD"
+    "cv": "https://1drv.ms/b/c/5fb1d612d536d0ee/IQDh2eXDPYdvQaAA_3Q2miimASFoLChC0-qQzhnXZnPnK8I?e=haLo53"
   },
   "socialLinks": [
     {
