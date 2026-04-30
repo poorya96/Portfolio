@@ -11,30 +11,12 @@
   <body>
     <div id="root"></div>
     <script>
-      (function () {
-        if (
-          window.location.search[1] === "p" &&
-          window.location.search.split("=")[1] === "/"
-        ) {
-          var l = window.location;
-          l.replace(
-            l.protocol +
-              "//" +
-              l.host +
-              l.pathname.split("/").slice(0, -1).join("/") +
-              window.location.search.split("=")[1] +
-              window.location.search
-                .split("=")[2]
-                .split("&q=")[0]
-                .replace(/~and~/g, "&") +
-              (window.location.search.split("=")[2].split("&q=")[1]
-                ? "#" +
-                  window.location.search
-                    .split("=")[2]
-                    .split("&q=")[1]
-                    .replace(/~and~/g, "&")
-                : ""),
-          );
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('p')) {
+          const path = params.get('p');
+          const hash = params.get('q') ? '#' + params.get('q') : '';
+          window.history.replaceState(null, null, path + hash);
         }
       })();
     </script>
