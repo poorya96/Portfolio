@@ -1,8 +1,11 @@
 import { Code } from "lucide-react";
+import { useState } from "react";
 import { useContent } from "../context/ContentContext";
+import { ContactModal } from "./ContactModal";
 
 export const AboutMe = () => {
   const { content } = useContent();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!content) return <div>Loading...</div>;
 
@@ -26,14 +29,16 @@ export const AboutMe = () => {
               {description2}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start">
-              <a
-                href="#contact"
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className="cosmic-button text-sm md:text-base py-2 md:py-3"
               >
                 Get in Touch
-              </a>
+              </button>
               <a
-                href="#contact"
+                href={content?.contact?.cv}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 md:py-3 rounded-full border-2 border-primary text-primary hover:bg-primary/20 transition-colors duration-300 flex items-center justify-center text-sm md:text-base font-medium"
               >
                 CV

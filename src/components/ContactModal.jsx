@@ -101,7 +101,7 @@ export const ContactModal = ({ isOpen, onClose }) => {
           </div>
 
           {/* Phone and Location */}
-          <div className="border-t border-primary/20 pt-4 space-y-2 text-sm">
+          {/* <div className="border-t border-primary/20 pt-4 space-y-2 text-sm">
             <p>
               <span className="text-muted-foreground">Phone:</span>{" "}
               <span className="font-semibold">{contact.phone}</span>
@@ -110,7 +110,7 @@ export const ContactModal = ({ isOpen, onClose }) => {
               <span className="text-muted-foreground">Location:</span>{" "}
               <span className="font-semibold">{contact.location}</span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
