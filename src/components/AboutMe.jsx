@@ -1,7 +1,7 @@
-import { Code } from "lucide-react";
-import { useState } from "react";
+import { Code, Download } from "lucide-react";
 import { useContent } from "../context/ContentContext";
 import { ContactModal } from "./ContactModal";
+import { useState } from "react";
 
 export const AboutMe = () => {
   const { content } = useContent();
@@ -13,6 +13,10 @@ export const AboutMe = () => {
 
   return (
     <section id="about" className="py-24 px-4 relative">
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
           {title} <span className="text-primary">Me</span>
@@ -36,11 +40,12 @@ export const AboutMe = () => {
                 Get in Touch
               </button>
               <a
-                href={content?.contact?.cv}
+                href={content.contact?.cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 md:py-3 rounded-full border-2 border-primary text-primary hover:bg-primary/20 transition-colors duration-300 flex items-center justify-center text-sm md:text-base font-medium"
+                className="px-6 py-2 md:py-3 rounded-full border-2 border-primary text-primary hover:bg-primary/20 transition-colors duration-300 flex items-center justify-center text-sm md:text-base font-medium gap-2"
               >
+                <Download className="h-4 w-4" />
                 CV
               </a>
             </div>
