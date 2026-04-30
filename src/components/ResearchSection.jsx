@@ -1,5 +1,5 @@
 import { useContent } from "../context/ContentContext";
-import { BookMarked, Microscope } from "lucide-react";
+import { BookMarked, Microscope, Github } from "lucide-react";
 
 export const ResearchSection = () => {
   const { content } = useContent();
@@ -23,11 +23,24 @@ export const ResearchSection = () => {
                   <Microscope className="h-6 w-6 text-primary" />
                 </div>
                 <div className="flex-grow">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
                     <h3 className="text-xl font-semibold">{project.title}</h3>
-                    <span className="text-sm text-muted-foreground">
-                      {project.period}
-                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm text-muted-foreground">
+                        {project.period}
+                      </span>
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-1.5 rounded-lg hover:bg-primary/20 transition-colors"
+                          title="View on GitHub"
+                        >
+                          <Github className="h-4 w-4 md:h-5 md:w-5 text-primary" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                   {project.status && (
                     <p className="text-sm text-primary/70 mt-1">

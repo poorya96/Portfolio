@@ -53,12 +53,27 @@ export const ExperienceSection = () => {
                                 key={pidx}
                                 className="bg-primary/5 dark:bg-primary/10 p-3 rounded-lg border border-primary/15"
                               >
-                                <h4 className="font-semibold text-foreground text-sm md:text-base mb-2">
-                                  {project.name}
-                                </h4>
-                                <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
-                                  {project.description}
-                                </p>
+                                <div className="flex items-start justify-between gap-2">
+                                  <div className="flex-grow">
+                                    <h4 className="font-semibold text-foreground text-sm md:text-base mb-2">
+                                      {project.name}
+                                    </h4>
+                                    <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
+                                      {project.description}
+                                    </p>
+                                  </div>
+                                  {project.github && (
+                                    <a
+                                      href={project.github}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="flex-shrink-0 p-1.5 rounded-lg hover:bg-primary/20 transition-colors"
+                                      title="View on GitHub"
+                                    >
+                                      <Github className="h-4 w-4 md:h-5 md:w-5 text-primary" />
+                                    </a>
+                                  )}
+                                </div>
                               </div>
                             ))}
                           </div>
