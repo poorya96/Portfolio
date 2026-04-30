@@ -107,7 +107,7 @@ export const Footer = () => {
               Get in Touch
             </button>
             <p className="text-sm text-muted-foreground">
-              © 2024 Poorya Hassanzadeh. All rights reserved.
+              © 2026 Poorya Hassanzadeh. All rights reserved.
             </p>
           </div>
         </div>
