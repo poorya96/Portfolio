@@ -76,7 +76,7 @@
     {
       "title": "Face Recognition with Raspberry Pi Using a Smartphone Camera",
       "period": "Jun 2024 – Jan 2025",
-      "description": "> Real-time face recognition on Raspberry Pi using a smartphone IP camera, with GPIO-based authentication output.",
+      "description": "Real-time face recognition on Raspberry Pi using a smartphone IP camera, with GPIO-based authentication output.",
       "github": "https://github.com/poorya96/facial_recognition"
     },
     {
